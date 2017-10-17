@@ -21,8 +21,7 @@ class CreateUserTable extends Migration
             //add more tables
             $table->string('email')->unique();
             $table->string('password');
-            $table->string('description');
-            $table->integer('price');
+            $table->rememberToken();
         });
     }
 

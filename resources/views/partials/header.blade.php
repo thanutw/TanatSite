@@ -32,9 +32,15 @@
                 <i class="fa fa-user-circle-o" aria-hidden="true"></i> User Management
             </button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="{{ route('user.signup') }}">SignUp</a>
-                <a class="dropdown-item" href="{{ route('user.signin') }}">SignIn</a>
-                <a class="dropdown-item" href="{{ route('user.logout') }}">Logout</a>
+            
+                @if(Auth::check())
+                  <a class="dropdown-item" href="{{ route('user.profile') }}">User Profile</a>
+                  <a class="dropdown-item" href="{{ route('user.logout') }}">Logout</a>
+                @else
+                  <a class="dropdown-item" href="{{ route('user.signup') }}">SignUp</a>
+                  <a class="dropdown-item" href="{{ route('user.signin') }}">SignIn</a>
+                @endif
+
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Separated link</a>
             </div>

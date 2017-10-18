@@ -7,6 +7,8 @@
     <script src="https://use.fontawesome.com/97afe14202.js"></script>
     <link rel="stylesheet" href="{{ URL::to('css/app.css')}}">
     <link rel="stylesheet" href="{{ URL::to('css/pic.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     @yield('styles')  {{-- If styles below bootstrap it will overwrite the script --}}
 </head>
 <body>

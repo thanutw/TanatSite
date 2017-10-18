@@ -41,6 +41,22 @@ Route::post('/checkIn', [
     'uses' => 'ProductController@postCheckout',
     'as' => 'checkout'
 ]);
+Route::post('/checkOff', [
+    'uses' => 'ProductController@postCheckout',
+    'as' => 'checkout'
+]);
+Route::post('/checkOn', [
+    'uses' => 'ProductController@postCheckout',
+    'as' => 'checkout'
+]);
+Route::post('/checkk', [
+    'uses' => 'ProductController@postCheckout',
+    'as' => 'checkout'
+]);
+Route::post('/check2', [
+    'uses' => 'ProductController@postCheckout',
+    'as' => 'checkout'
+]);
 
 //Group Prefix
 Route::group(['prefix' => 'user'], function(){

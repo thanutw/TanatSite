@@ -16,6 +16,7 @@
 
                     You are logged in!
                     Logged IN
+                    Display code
                 </div>
             </div>
         </div>

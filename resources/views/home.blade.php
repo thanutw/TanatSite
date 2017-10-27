@@ -16,7 +16,7 @@
 
                     You are logged in!
                     Logged in
-                    
+                    Delete one
                     Update 2
                 </div>
             </div>

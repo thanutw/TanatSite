@@ -15,9 +15,6 @@
                     @endif
 
                     You are logged in!
-                    You are logged in!
-                    You are logged in!2
-                    You are logged in ! 3
                 </div>
             </div>
         </div>

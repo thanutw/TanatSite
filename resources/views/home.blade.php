@@ -17,6 +17,7 @@
                     You are logged in!
                     Logged IN
                     Display code
+                    Third Code
                 </div>
             </div>
         </div>
